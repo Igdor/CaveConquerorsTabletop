@@ -1,0 +1,40 @@
+{"traits":
+  {"Mercenaries": 2,
+    "Tight space": 2,
+    "Sappers": 2,
+    "Military base": 2,
+    "Relic of inspiration":  2,
+    "Assault equipment": 2,
+    "Reinforcements": 2
+    },
+
+  "trait_descriptions":
+          [[0, "Mercenaries: You can add 3 units to next battle. Goblins receive 5 score instead."],
+            [0, "Tight space: Battle for this territory have -2 units for both sides."],
+            [0, "Military base: Attack with 1 additional unit from this territory, gain 2 additional units defending it."],
+            [0, "Sappers: You can use your ability to sabotage territory adjanced to your own."],
+            [0, "Sabotaged territory become neutral and inaccessible for 1 turn, and loses trait."],
+            [0, "Relic of inspiration: Gain 1 additional use of any ability for your next battle."],
+            [0, "Assault equipment: Recharge your one-time faction ability"],
+            [0, "Reinforcements: Reinforce one territory for free."],
+            [0, "_____________________________________"],
+            [0, "Rally: Roll dice again, add result to the previous score this round."],
+            [0, "Diversion: Remove 1 forces for opponent, but subtract 1 from your roll."],
+            [0, "Buckle up: If difference between rolls is 2 or less, do not lose your unit."],
+            [0, "Only one ability per battle turn can be used."]],
+  "rules_descriptions":
+    [[0, "Each turn you can attack territory adjanced to your own or use ability. You always have a Reinforce ability."],
+    [0, "Reinforce reduces number of attackers in one battle for this territory by 2 for dwarfs or by 3 for goblins."],
+    [0, "If you own more than 1 territory around one you attacking, add + 1 to attacking forces for each territory."],
+    [0, "Game ends after 8 turns, the dwarf with most territories wins. If equal, winner is the one with highest score."],
+    [0, "If dwarfs have less than 5 units at the start of their turn, they skip turn and gain 5 units."],
+    [0, "Dwarfs have 'Rush' ability: Once per game you can attack twice (not the same territory)."],
+    [0, "_____________________________________"],
+    [0, "Goblins gain + 3 units in battle, but cannot use abilities and traits, except sappers."],
+    [0, "Goblins can retreat in battle after roll, gaining 1 score for each defeated dwarf unit."],
+    [0, "Instead of Reinforce, goblins can pillage territory they have, removing trait and adding its value to their score."],
+    [0, "Goblins automatically pillage territories they capture over limit of 3."],
+    [0, "Goblins win immidiately if they gain 60 score."],
+    [0, "Goblins have 'Sneak' ability: Once per game you can attack any territory."]
+    ]
+}
